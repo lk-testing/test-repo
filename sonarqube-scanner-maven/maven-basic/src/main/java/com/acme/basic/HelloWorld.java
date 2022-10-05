@@ -25,5 +25,6 @@ public class HelloWorld {
     int a = 5+6;
     LOGGER.info("a= " + a);
     int b = 0;
+    int c = 1;
   }
 }
