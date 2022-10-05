@@ -1,0 +1,1130 @@
+INFO: Scanner configuration file: /home/lukasz.kwapien/Downloads/sonar-scanner-4.7.0.2747-linux/conf/sonar-scanner.properties
+INFO: Project root configuration file: /home/lukasz.kwapien/Downloads/sonar-scanning-examples-master/sonarqube-scanner/sonar-project.properties
+15:37:13.348 INFO: SonarScanner 4.7.0.2747
+15:37:13.349 INFO: Java 11.0.14.1 Eclipse Adoptium (64-bit)
+15:37:13.349 INFO: Linux 5.15.0-41-generic amd64
+15:37:13.424 DEBUG: keyStore is : 
+15:37:13.424 DEBUG: keyStore type is : pkcs12
+15:37:13.424 DEBUG: keyStore provider is : 
+15:37:13.424 DEBUG: init keystore
+15:37:13.425 DEBUG: init keymanager of type SunX509
+15:37:13.487 DEBUG: Create: /home/lukasz.kwapien/.sonar/cache
+15:37:13.487 INFO: User cache: /home/lukasz.kwapien/.sonar/cache
+15:37:13.487 DEBUG: Create: /home/lukasz.kwapien/.sonar/cache/_tmp
+15:37:13.488 DEBUG: Extract sonar-scanner-api-batch in temp...
+15:37:13.490 DEBUG: Get bootstrap index...
+15:37:13.490 DEBUG: Download: http://localhost:9000/batch/index
+15:37:13.517 DEBUG: Get bootstrap completed
+15:37:13.520 DEBUG: Create isolated classloader...
+15:37:13.526 DEBUG: Start temp cleaning...
+15:37:13.529 DEBUG: Temp cleaning done
+15:37:13.529 INFO: Scanner configuration file: /home/lukasz.kwapien/Downloads/sonar-scanner-4.7.0.2747-linux/conf/sonar-scanner.properties
+15:37:13.530 INFO: Project root configuration file: /home/lukasz.kwapien/Downloads/sonar-scanning-examples-master/sonarqube-scanner/sonar-project.properties
+15:37:13.531 DEBUG: Execution getVersion
+15:37:13.541 INFO: Analyzing on SonarQube server 9.5.0.56709
+15:37:13.541 INFO: Default locale: "en_US", source code encoding: "UTF-8"
+15:37:13.541 DEBUG: Work directory: /home/lukasz.kwapien/Downloads/sonar-scanning-examples-master/sonarqube-scanner/.scannerwork
+15:37:13.542 DEBUG: Execution execute
+15:37:13.730 DEBUG: Enterprise 9.5.0.56709
+15:37:13.872 INFO: Load global settings
+15:37:13.993 DEBUG: GET 200 http://localhost:9000/api/settings/values.protobuf | time=121ms
+15:37:14.009 INFO: Load global settings (done) | time=137ms
+15:37:14.010 INFO: Server id: 92D88F0A-AYHNiimQRwhAJZAOYdeE
+15:37:14.014 INFO: User cache: /home/lukasz.kwapien/.sonar/cache
+15:37:14.017 INFO: Load/download plugins
+15:37:14.017 INFO: Load plugins index
+15:37:14.115 DEBUG: GET 200 http://localhost:9000/api/plugins/installed | time=98ms
+15:37:14.134 INFO: Load plugins index (done) | time=116ms
+15:37:14.290 INFO: Load/download plugins (done) | time=273ms
+15:37:14.392 DEBUG: Plugins:
+15:37:14.392 DEBUG:   * IaC Code Quality and Security 1.7.0.2012 (iac)
+15:37:14.392 DEBUG:   * PL/SQL Code Quality and Security 3.7.0.4372 (plsql)
+15:37:14.392 DEBUG:   * Scala Code Quality and Security 1.9.0.3429 (sonarscala)
+15:37:14.392 DEBUG:   * C# Code Quality and Security 8.40.0.48530 (csharp)
+15:37:14.392 DEBUG:   * Vulnerability Analysis 9.5.1.16463 (security)
+15:37:14.392 DEBUG:   * Java Code Quality and Security 7.12.0.29739 (java)
+15:37:14.392 DEBUG:   * HTML Code Quality and Security 3.6.0.3106 (web)
+15:37:14.392 DEBUG:   * Flex Code Quality and Security 2.7.0.2865 (flex)
+15:37:14.393 DEBUG:   * XML Code Quality and Security 2.5.0.3376 (xml)
+15:37:14.393 DEBUG:   * Text file Code Quality and Security 1.1.0.282 (text)
+15:37:14.393 DEBUG:   * VB.NET Code Quality and Security 8.40.0.48530 (vbnet)
+15:37:14.393 DEBUG:   * Swift Code Quality and Security 4.6.0.5406 (swift)
+15:37:14.393 DEBUG:   * CFamily Code Quality and Security 6.34.0.48468 (cpp)
+15:37:14.393 DEBUG:   * Python Code Quality and Security 3.13.0.9611 (python)
+15:37:14.393 DEBUG:   * Dataflow Bug Detection 1.2.2.1720 (dbd)
+15:37:14.393 DEBUG:   * Go Code Quality and Security 1.9.0.3429 (go)
+15:37:14.393 DEBUG:   * JaCoCo 1.1.1.1157 (jacoco)
+15:37:14.393 DEBUG:   * Kotlin Code Quality and Security 2.9.0.1147 (kotlin)
+15:37:14.393 DEBUG:   * RPG Code Quality 3.2.0.3034 (rpg)
+15:37:14.393 DEBUG:   * Dataflow Bug Detection Rules for Java 1.2.2.1720 (dbdjavafrontend)
+15:37:14.393 DEBUG:   * PL/I Code Quality and Security 1.11.1.2727 (pli)
+15:37:14.393 DEBUG:   * T-SQL Code Quality and Security 1.6.0.4844 (tsql)
+15:37:14.393 DEBUG:   * VB6 Code Quality and Security 2.8.0.3021 (vb)
+15:37:14.393 DEBUG:   * Apex Code Quality and Security 1.9.0.3429 (sonarapex)
+15:37:14.393 DEBUG:   * JavaScript/TypeScript/CSS Code Quality and Security 9.3.0.18033 (javascript)
+15:37:14.393 DEBUG:   * Ruby Code Quality and Security 1.9.0.3429 (ruby)
+15:37:14.393 DEBUG:   * Vulnerability Rules for C# 9.5.1.16463 (securitycsharpfrontend)
+15:37:14.393 DEBUG:   * Vulnerability Rules for Java 9.5.1.16463 (securityjavafrontend)
+15:37:14.393 DEBUG:   * Vulnerability Rules for JS 9.5.1.16463 (securityjsfrontend)
+15:37:14.394 DEBUG:   * COBOL Code Quality 5.0.0.5433 (cobol)
+15:37:14.394 DEBUG:   * Vulnerability Rules for Python 9.5.1.16463 (securitypythonfrontend)
+15:37:14.394 DEBUG:   * PHP Code Quality and Security 3.23.1.8766 (php)
+15:37:14.394 DEBUG:   * ABAP Code Quality and Security 3.10.0.3628 (abap)
+15:37:14.394 DEBUG:   * Configuration detection fot Code Quality and Security 1.2.0.267 (config)
+15:37:14.394 DEBUG:   * Vulnerability Rules for PHP 9.5.1.16463 (securityphpfrontend)
+15:37:14.428 INFO: Loaded core extensions: developer-scanner
+15:37:14.437 DEBUG: Installed core extension: developer-scanner
+15:37:14.746 INFO: Process project properties
+15:37:14.752 INFO: Process project properties (done) | time=6ms
+15:37:14.753 INFO: Execute project builders
+15:37:14.754 DEBUG: Execute project builder: org.sonar.plugins.csharp.CSharpGlobalProtobufFileProcessor
+15:37:14.754 DEBUG: Execute project builder: org.sonar.plugins.vbnet.VbNetGlobalProtobufFileProcessor
+15:37:14.755 INFO: Execute project builders (done) | time=2ms
+15:37:14.787 INFO: Project key: org.sonarqube:sonarqube-scanner
+15:37:14.787 INFO: Base dir: /home/lukasz.kwapien/Downloads/sonar-scanning-examples-master/sonarqube-scanner
+15:37:14.787 INFO: Working dir: /home/lukasz.kwapien/Downloads/sonar-scanning-examples-master/sonarqube-scanner/.scannerwork
+15:37:14.787 DEBUG: Project global encoding: UTF-8, default locale: en_US
+15:37:14.795 INFO: Load project settings for component key: 'org.sonarqube:sonarqube-scanner'
+15:37:14.903 DEBUG: GET 200 http://localhost:9000/api/settings/values.protobuf?component=org.sonarqube%3Asonarqube-scanner | time=108ms
+15:37:14.904 INFO: Load project settings for component key: 'org.sonarqube:sonarqube-scanner' (done) | time=109ms
+15:37:14.998 INFO: Load project branches
+15:37:15.102 DEBUG: GET 200 http://localhost:9000/api/project_branches/list?project=org.sonarqube%3Asonarqube-scanner | time=104ms
+15:37:15.105 INFO: Load project branches (done) | time=107ms
+15:37:15.107 INFO: Load project pull requests
+15:37:15.214 DEBUG: GET 200 http://localhost:9000/api/project_pull_requests/list?project=org.sonarqube%3Asonarqube-scanner | time=106ms
+15:37:15.216 INFO: Load project pull requests (done) | time=109ms
+15:37:15.217 INFO: Load branch configuration
+15:37:15.218 INFO: Load branch configuration (done) | time=1ms
+15:37:15.223 DEBUG: Creating module hierarchy
+15:37:15.223 DEBUG:   Init module 'Example of SonarQube Scanner Usage'
+15:37:15.224 DEBUG:     Base dir: /home/lukasz.kwapien/Downloads/sonar-scanning-examples-master/sonarqube-scanner
+15:37:15.224 DEBUG:     Working dir: /home/lukasz.kwapien/Downloads/sonar-scanning-examples-master/sonarqube-scanner/.scannerwork
+15:37:15.224 DEBUG:     Module global encoding: UTF-8, default locale: en_US
+15:37:15.235 DEBUG: Available languages:
+15:37:15.239 DEBUG:   * Terraform => "terraform"
+15:37:15.239 DEBUG:   * CloudFormation => "cloudformation"
+15:37:15.239 DEBUG:   * PL/SQL => "plsql"
+15:37:15.239 DEBUG:   * Scala => "scala"
+15:37:15.239 DEBUG:   * C# => "cs"
+15:37:15.239 DEBUG:   * Java => "java"
+15:37:15.239 DEBUG:   * HTML => "web"
+15:37:15.239 DEBUG:   * JSP => "jsp"
+15:37:15.239 DEBUG:   * Flex => "flex"
+15:37:15.239 DEBUG:   * XML => "xml"
+15:37:15.239 DEBUG:   * Text => "text"
+15:37:15.239 DEBUG:   * VB.NET => "vbnet"
+15:37:15.239 DEBUG:   * Swift => "swift"
+15:37:15.239 DEBUG:   * C => "c"
+15:37:15.239 DEBUG:   * C++ => "cpp"
+15:37:15.239 DEBUG:   * Objective-C => "objc"
+15:37:15.239 DEBUG:   * Python => "py"
+15:37:15.239 DEBUG:   * Go => "go"
+15:37:15.239 DEBUG:   * Kotlin => "kotlin"
+15:37:15.239 DEBUG:   * RPG => "rpg"
+15:37:15.239 DEBUG:   * PL/I => "pli"
+15:37:15.240 DEBUG:   * T-SQL => "tsql"
+15:37:15.240 DEBUG:   * Vb => "vb"
+15:37:15.240 DEBUG:   * Apex => "apex"
+15:37:15.240 DEBUG:   * JavaScript => "js"
+15:37:15.240 DEBUG:   * TypeScript => "ts"
+15:37:15.240 DEBUG:   * CSS => "css"
+15:37:15.240 DEBUG:   * Ruby => "ruby"
+15:37:15.240 DEBUG:   * COBOL => "cobol"
+15:37:15.240 DEBUG:   * PHP => "php"
+15:37:15.240 DEBUG:   * ABAP => "abap"
+15:37:15.240 DEBUG:   * YAML => "yaml"
+15:37:15.240 DEBUG:   * JSON => "json"
+15:37:15.255 WARN: SCM provider autodetection failed. Please use "sonar.scm.provider" to define SCM of your project, or disable the SCM Sensor in the project settings.
+15:37:15.260 INFO: Load quality profiles
+15:37:15.382 DEBUG: GET 200 http://localhost:9000/api/qualityprofiles/search.protobuf?project=org.sonarqube%3Asonarqube-scanner | time=122ms
+15:37:15.394 INFO: Load quality profiles (done) | time=135ms
+15:37:15.397 INFO: Load active rules
+15:37:15.508 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYHNivjERwhAJZAOYn31&ps=500&p=1 | time=111ms
+15:37:15.657 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYHNivmiRwhAJZAOYn5T&ps=500&p=1 | time=115ms
+15:37:15.773 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYHNivokRwhAJZAOYn5z&ps=500&p=1 | time=113ms
+15:37:15.917 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYHNivpzRwhAJZAOYoAh&ps=500&p=1 | time=143ms
+15:37:16.062 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYHNivvrRwhAJZAOYoJf&ps=500&p=1 | time=130ms
+15:37:16.179 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYHNivzjRwhAJZAOYoNp&ps=500&p=1 | time=111ms
+15:37:16.302 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYHNiv2YRwhAJZAOYoSv&ps=500&p=1 | time=122ms
+15:37:16.482 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYHNiv8nRwhAJZAOYok0&ps=500&p=1 | time=178ms
+15:37:16.609 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYHNiwEWRwhAJZAOYoti&ps=500&p=1 | time=116ms
+15:37:16.726 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYHNiwJWRwhAJZAOYowx&ps=500&p=1 | time=115ms
+15:37:16.835 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYHNiwHFRwhAJZAOYouy&ps=500&p=1 | time=107ms
+15:37:16.937 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYHNiwLhRwhAJZAOYoxi&ps=500&p=1 | time=101ms
+15:37:17.042 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYHNiwLsRwhAJZAOYoxm&ps=500&p=1 | time=105ms
+15:37:17.166 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYHNiwPJRwhAJZAOYo1f&ps=500&p=1 | time=124ms
+15:37:17.285 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYHNiwSRRwhAJZAOYo4K&ps=500&p=1 | time=116ms
+15:37:17.402 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYHNiwUnRwhAJZAOYo60&ps=500&p=1 | time=116ms
+15:37:17.504 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYHNiwUBRwhAJZAOYo4m&ps=500&p=1 | time=101ms
+15:37:17.666 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYHNiwZCRwhAJZAOYpIw&ps=500&p=1 | time=161ms
+15:37:17.809 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYHNiwfmRwhAJZAOYpVv&ps=500&p=1 | time=137ms
+15:37:17.928 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYHNiwq_RwhAJZAOYpeA&ps=500&p=1 | time=115ms
+15:37:18.046 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYHNiwn_RwhAJZAOYpbx&ps=500&p=1 | time=117ms
+15:37:18.156 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYHNiwtcRwhAJZAOYpfb&ps=500&p=1 | time=108ms
+15:37:18.268 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYHNiwv_RwhAJZAOYpge&ps=500&p=1 | time=112ms
+15:37:18.380 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYHNiw2GRwhAJZAOYpkA&ps=500&p=1 | time=111ms
+15:37:18.503 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYHNiwyeRwhAJZAOYphq&ps=500&p=1 | time=122ms
+15:37:18.631 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYHNiw5ORwhAJZAOYpl_&ps=500&p=1 | time=127ms
+15:37:18.772 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYHNiw8hRwhAJZAOYpvK&ps=500&p=1 | time=141ms
+15:37:18.887 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYHNixB-RwhAJZAOYp2W&ps=500&p=1 | time=111ms
+15:37:19.039 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYHNixGWRwhAJZAOYp9Z&ps=500&p=1 | time=150ms
+15:37:19.158 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYHNixM6RwhAJZAOYqEf&ps=500&p=1 | time=116ms
+15:37:19.281 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYHNixPBRwhAJZAOYqHm&ps=500&p=1 | time=122ms
+15:37:19.413 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYHNixSKRwhAJZAOYqY2&ps=500&p=1 | time=131ms
+15:37:19.554 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYHNixQYRwhAJZAOYqPE&ps=500&p=1 | time=135ms
+15:37:19.565 INFO: Load active rules (done) | time=4168ms
+15:37:19.569 INFO: Load analysis cache
+15:37:19.672 DEBUG: GET 404 http://localhost:9000/api/analysis_cache/get?project=org.sonarqube:sonarqube-scanner | time=103ms
+15:37:19.673 INFO: Load analysis cache (404) | time=104ms
+15:37:19.708 INFO: Load project repositories
+15:37:19.817 DEBUG: GET 200 http://localhost:9000/batch/project.protobuf?key=org.sonarqube%3Asonarqube-scanner | time=108ms
+15:37:19.821 INFO: Load project repositories (done) | time=113ms
+15:37:19.839 DEBUG: Declared extensions of language Terraform were converted to sonar.lang.patterns.terraform : **/*.tf
+15:37:19.839 DEBUG: Declared extensions of language CloudFormation were converted to sonar.lang.patterns.cloudformation : 
+15:37:19.840 DEBUG: Declared extensions of language PL/SQL were converted to sonar.lang.patterns.plsql : **/*.sql,**/*.pks,**/*.pkb
+15:37:19.840 DEBUG: Declared extensions of language Scala were converted to sonar.lang.patterns.scala : **/*.scala
+15:37:19.840 DEBUG: Declared extensions of language C# were converted to sonar.lang.patterns.cs : **/*.cs
+15:37:19.840 DEBUG: Declared extensions of language Java were converted to sonar.lang.patterns.java : **/*.java,**/*.jav
+15:37:19.840 DEBUG: Declared extensions of language HTML were converted to sonar.lang.patterns.web : **/*.html,**/*.xhtml,**/*.cshtml,**/*.vbhtml,**/*.aspx,**/*.ascx,**/*.rhtml,**/*.erb,**/*.shtm,**/*.shtml,**/*.cmp,**/*.twig
+15:37:19.841 DEBUG: Declared extensions of language JSP were converted to sonar.lang.patterns.jsp : **/*.jsp,**/*.jspf,**/*.jspx
+15:37:19.841 DEBUG: Declared extensions of language Flex were converted to sonar.lang.patterns.flex : **/*.as
+15:37:19.841 DEBUG: Declared extensions of language XML were converted to sonar.lang.patterns.xml : **/*.xml,**/*.xsd,**/*.xsl
+15:37:19.841 DEBUG: Declared extensions of language Text were converted to sonar.lang.patterns.text : **/*.sonarshouldnotexistextension
+15:37:19.841 DEBUG: Declared extensions of language VB.NET were converted to sonar.lang.patterns.vbnet : **/*.vb
+15:37:19.841 DEBUG: Declared extensions of language Swift were converted to sonar.lang.patterns.swift : **/*.swift
+15:37:19.841 DEBUG: Declared extensions of language C were converted to sonar.lang.patterns.c : **/*.c,**/*.h
+15:37:19.842 DEBUG: Declared extensions of language C++ were converted to sonar.lang.patterns.cpp : **/*.cc,**/*.cpp,**/*.cxx,**/*.c++,**/*.hh,**/*.hpp,**/*.hxx,**/*.h++,**/*.ipp
+15:37:19.842 DEBUG: Declared extensions of language Objective-C were converted to sonar.lang.patterns.objc : **/*.m
+15:37:19.842 DEBUG: Declared extensions of language Python were converted to sonar.lang.patterns.py : **/*.py
+15:37:19.842 DEBUG: Declared extensions of language Go were converted to sonar.lang.patterns.go : **/*.go
+15:37:19.842 DEBUG: Declared extensions of language Kotlin were converted to sonar.lang.patterns.kotlin : **/*.kt
+15:37:19.843 DEBUG: Declared extensions of language RPG were converted to sonar.lang.patterns.rpg : **/*.rpg,**/*.rpgle,**/*.sqlrpgle,**/*.rpg,**/*.rpgle,**/*.sqlrpgle
+15:37:19.843 DEBUG: Declared extensions of language PL/I were converted to sonar.lang.patterns.pli : **/*.pli
+15:37:19.843 DEBUG: Declared extensions of language T-SQL were converted to sonar.lang.patterns.tsql : **/*.tsql
+15:37:19.843 DEBUG: Declared extensions of language Vb were converted to sonar.lang.patterns.vb : **/*.vb,**/*.bas,**/*.frm,**/*.ctl,**/*.vb,**/*.bas,**/*.frm,**/*.ctl
+15:37:19.843 DEBUG: Declared extensions of language Apex were converted to sonar.lang.patterns.apex : **/*.cls,**/*.trigger
+15:37:19.843 DEBUG: Declared extensions of language JavaScript were converted to sonar.lang.patterns.js : **/*.js,**/*.jsx,**/*.mjs,**/*.vue
+15:37:19.843 DEBUG: Declared extensions of language TypeScript were converted to sonar.lang.patterns.ts : **/*.ts,**/*.tsx
+15:37:19.844 DEBUG: Declared extensions of language CSS were converted to sonar.lang.patterns.css : **/*.css,**/*.less,**/*.scss
+15:37:19.844 DEBUG: Declared extensions of language Ruby were converted to sonar.lang.patterns.ruby : **/*.rb
+15:37:19.844 DEBUG: Declared extensions of language COBOL were converted to sonar.lang.patterns.cobol : **/*.cbl,**/*.cpy
+15:37:19.844 DEBUG: Declared extensions of language PHP were converted to sonar.lang.patterns.php : **/*.php,**/*.php3,**/*.php4,**/*.php5,**/*.phtml,**/*.inc
+15:37:19.844 DEBUG: Declared extensions of language ABAP were converted to sonar.lang.patterns.abap : **/*.abap,**/*.ab4,**/*.flow,**/*.asprog
+15:37:19.844 DEBUG: Declared extensions of language YAML were converted to sonar.lang.patterns.yaml : **/*.yaml,**/*.yml
+15:37:19.844 DEBUG: Declared extensions of language JSON were converted to sonar.lang.patterns.json : **/*.json
+15:37:19.847 DEBUG: Will ignore generated code
+15:37:19.849 DEBUG: Will ignore generated code
+15:37:19.852 INFO: Indexing files...
+15:37:19.852 INFO: Project configuration:
+15:37:19.867 DEBUG: Average line length for src/javascript/Person.js is 20
+15:37:19.868 DEBUG: 'src/javascript/Person.js' indexed with language 'js'
+15:37:19.881 INFO: 1 file indexed
+15:37:19.883 INFO: Quality profile for js: Sonar way
+15:37:19.883 INFO: ------------- Run sensors on module Example of SonarQube Scanner Usage
+15:37:19.988 INFO: Load metrics repository
+15:37:20.101 DEBUG: GET 200 http://localhost:9000/api/metrics/search?ps=500&p=1 | time=111ms
+15:37:20.106 INFO: Load metrics repository (done) | time=118ms
+15:37:21.345 DEBUG: Adding rules for repository 'jssecurity', language: JAVASCRIPT, [class com.sonar.security.frontend.js.rules.DomOpenRedirectCheck, class com.sonar.security.frontend.js.rules.DomXssCheck, class com.sonar.security.frontend.js.rules.DynamicCodeExecutionCheck, class com.sonar.security.frontend.js.rules.FilePathInjectionCheck, class com.sonar.security.frontend.js.rules.HttpRedirectionCheck, class com.sonar.security.frontend.js.rules.NoSQLInjectionCheck, class com.sonar.security.frontend.js.rules.OSArgumentConstructionCheck, class com.sonar.security.frontend.js.rules.OSArgumentInjectionCheck, class com.sonar.security.frontend.js.rules.OSCommandInjectionCheck, class com.sonar.security.frontend.js.rules.ReflectedXssCheck, class com.sonar.security.frontend.js.rules.RegularExpressionDoSCheck, class com.sonar.security.frontend.js.rules.ServerSideRequestCheck, class com.sonar.security.frontend.js.rules.SQLInjectionCheck, class com.sonar.security.frontend.js.rules.ZipSlipCheck, class com.sonar.security.frontend.js.rules.SessionFixationCheck] from com.sonar.security.frontend.js.F
+15:37:21.350 DEBUG: Adding rules for repository 'tssecurity', language: TYPESCRIPT, [class com.sonar.security.frontend.js.rules.DomOpenRedirectCheck, class com.sonar.security.frontend.js.rules.DomXssCheck, class com.sonar.security.frontend.js.rules.DynamicCodeExecutionCheck, class com.sonar.security.frontend.js.rules.FilePathInjectionCheck, class com.sonar.security.frontend.js.rules.HttpRedirectionCheck, class com.sonar.security.frontend.js.rules.NoSQLInjectionCheck, class com.sonar.security.frontend.js.rules.OSArgumentConstructionCheck, class com.sonar.security.frontend.js.rules.OSArgumentInjectionCheck, class com.sonar.security.frontend.js.rules.OSCommandInjectionCheck, class com.sonar.security.frontend.js.rules.ReflectedXssCheck, class com.sonar.security.frontend.js.rules.RegularExpressionDoSCheck, class com.sonar.security.frontend.js.rules.ServerSideRequestCheck, class com.sonar.security.frontend.js.rules.SQLInjectionCheck, class com.sonar.security.frontend.js.rules.ZipSlipCheck, class com.sonar.security.frontend.js.rules.SessionFixationCheck] from com.sonar.security.frontend.js.B
+15:37:21.609 DEBUG: 'JavaSensor' skipped because there is no related file in current project
+15:37:21.610 DEBUG: 'CobolSquidSensor' skipped because there is no related file in current project
+15:37:21.610 DEBUG: 'Import external issues report' skipped because one of the required properties is missing
+15:37:21.610 DEBUG: 'IaC Terraform Sensor' skipped because there is no related file in current project
+15:37:21.611 DEBUG: 'IaC CloudFormation Sensor' skipped because there is no related file in current project
+15:37:21.611 DEBUG: 'PL/SQL Sensor' skipped because there is no related file in current project
+15:37:21.611 DEBUG: 'Scala Sensor' skipped because there is no related file in current project
+15:37:21.611 DEBUG: 'Scoverage sensor for Scala coverage' skipped because there is no related file in current project
+15:37:21.611 DEBUG: 'Import of Scalastyle issues' skipped because there is no related file in current project
+15:37:21.611 DEBUG: 'Import of Scapegoat issues' skipped because there is no related file in current project
+15:37:21.612 DEBUG: 'Import of Checkstyle issues' skipped because there is no related file in current project
+15:37:21.612 DEBUG: 'Import of PMD issues' skipped because one of the required properties is missing
+15:37:21.612 DEBUG: 'Import of SpotBugs issues' skipped because there is no related file in current project
+15:37:21.612 DEBUG: 'SurefireSensor' skipped because there is no related file in current project
+15:37:21.612 DEBUG: 'Removed properties sensor' skipped because there is no related file in current project
+15:37:21.612 DEBUG: 'Flex' skipped because there is no related file in current project
+15:37:21.613 DEBUG: 'Flex Cobertura' skipped because there is no related file in current project
+15:37:21.613 DEBUG: 'XML Sensor' skipped because there is no related file in current project
+15:37:21.613 DEBUG: 'Swift Code Quality and Security' skipped because there is no related file in current project
+15:37:21.613 DEBUG: 'Import of SwiftLint issues' skipped because there is no related file in current project
+15:37:21.613 DEBUG: 'gcov' skipped because there is no related file in current project
+15:37:21.614 DEBUG: 'llvm-cov' skipped because there is no related file in current project
+15:37:21.614 DEBUG: 'cppunit' skipped because there is no related file in current project
+15:37:21.614 DEBUG: 'VisualStudioCoverage' skipped because there is no related file in current project
+15:37:21.614 DEBUG: 'bullseye' skipped because there is no related file in current project
+15:37:21.614 DEBUG: 'Python Sensor' skipped because there is no related file in current project
+15:37:21.614 DEBUG: 'Cobertura Sensor for Python coverage' skipped because there is no related file in current project
+15:37:21.614 DEBUG: 'PythonXUnitSensor' skipped because there is no related file in current project
+15:37:21.615 DEBUG: 'Import of Pylint issues' skipped because there is no related file in current project
+15:37:21.615 DEBUG: 'Import of Bandit issues' skipped because there is no related file in current project
+15:37:21.615 DEBUG: 'Import of Flake8 issues' skipped because there is no related file in current project
+15:37:21.615 DEBUG: 'Code Quality and Security for Go' skipped because there is no related file in current project
+15:37:21.615 DEBUG: 'Go Unit Test Report' skipped because there is no related file in current project
+15:37:21.616 DEBUG: 'Go Cover sensor for Go coverage' skipped because one of the required properties is missing
+15:37:21.616 DEBUG: 'Import of go vet issues' skipped because there is no related file in current project
+15:37:21.616 DEBUG: 'Import of Golint issues' skipped because there is no related file in current project
+15:37:21.616 DEBUG: 'Import of GoMetaLinter issues' skipped because there is no related file in current project
+15:37:21.616 DEBUG: 'Import of GolangCI-Lint issues' skipped because there is no related file in current project
+15:37:21.616 DEBUG: 'Kotlin Sensor' skipped because there is no related file in current project
+15:37:21.616 DEBUG: 'KotlinSurefireSensor' skipped because there is no related file in current project
+15:37:21.617 DEBUG: 'Import of detekt issues' skipped because there is no related file in current project
+15:37:21.617 DEBUG: 'Import of Android Lint issues' skipped because one of the required properties is missing
+15:37:21.617 DEBUG: 'Import of ktlint issues' skipped because there is no related file in current project
+15:37:21.617 DEBUG: 'RPG sensor' skipped because there is no related file in current project
+15:37:21.617 DEBUG: 'PliSquidSensor' skipped because there is no related file in current project
+15:37:21.617 DEBUG: 'T-SQL Sensor' skipped because there is no related file in current project
+15:37:21.618 DEBUG: 'VbSquidSensor' skipped because there is no related file in current project
+15:37:21.618 DEBUG: 'Apex Sensor' skipped because there is no related file in current project
+15:37:21.618 DEBUG: 'Test coverage Sensor for Apex' skipped because there is no related file in current project
+15:37:21.618 DEBUG: 'Import of PMD issues' skipped because there is no related file in current project
+15:37:21.618 DEBUG: 'JavaScript/TypeScript Coverage' skipped because one of the required properties is missing
+15:37:21.619 DEBUG: 'Import of ESLint issues' skipped because one of the required properties is missing
+15:37:21.619 DEBUG: 'Import of TSLint issues' skipped because one of the required properties is missing
+15:37:21.619 DEBUG: 'CSS Metrics' skipped because there is no related file in current project
+15:37:21.619 DEBUG: 'Import of stylelint issues' skipped because there is no related file in current project
+15:37:21.620 DEBUG: 'Ruby Sensor' skipped because there is no related file in current project
+15:37:21.620 DEBUG: 'Import of RuboCop issues' skipped because there is no related file in current project
+15:37:21.620 DEBUG: 'SimpleCov Sensor for Ruby coverage' skipped because there is no related file in current project
+15:37:21.620 DEBUG: 'Python HTML templates processing' skipped because there is no related file in current project
+15:37:21.620 DEBUG: 'PHP sensor' skipped because there is no related file in current project
+15:37:21.620 DEBUG: 'Analyzer for "php.ini" files' skipped because there is no related file in current project
+15:37:21.621 DEBUG: 'Import of PHPStan issues' skipped because there is no related file in current project
+15:37:21.621 DEBUG: 'Import of Psalm issues' skipped because there is no related file in current project
+15:37:21.621 DEBUG: 'AbapSquidSensor' skipped because there is no related file in current project
+15:37:21.625 DEBUG: 'Generic Test Executions Report' skipped because one of the required properties is missing
+15:37:21.625 DEBUG: 'CFamily' skipped because there is no related file in current project
+15:37:21.626 DEBUG: Sensors : C# Project Type Information -> C# Analysis Log -> C# Properties -> HTML -> Text Sensor -> VB.NET Project Type Information -> VB.NET Analysis Log -> VB.NET Properties -> JaCoCo XML Report Importer -> JavaScript analysis -> TypeScript analysis -> CSS Rules -> ThymeLeaf template sensor -> Serverless configuration file sensor -> AWS SAM template file sensor -> javabugs -> JavaSecuritySensor -> CSharpSecuritySensor -> PhpSecuritySensor -> PythonSecuritySensor -> JsSecuritySensor
+15:37:21.628 INFO: Sensor C# Project Type Information [csharp]
+15:37:21.628 INFO: Sensor C# Project Type Information [csharp] (done) | time=1ms
+15:37:21.628 INFO: Sensor C# Analysis Log [csharp]
+15:37:21.640 DEBUG: Project 'org.sonarqube:sonarqube-scanner': Property missing: 'sonar.cs.analyzer.projectOutPaths'. No protobuf files will be loaded for this project.
+15:37:21.641 INFO: Sensor C# Analysis Log [csharp] (done) | time=13ms
+15:37:21.641 INFO: Sensor C# Properties [csharp]
+15:37:21.641 DEBUG: Project 'org.sonarqube:sonarqube-scanner': Property missing: 'sonar.cs.analyzer.projectOutPaths'. No protobuf files will be loaded for this project.
+15:37:21.641 DEBUG: Project 'org.sonarqube:sonarqube-scanner': No Roslyn issues reports have been found.
+15:37:21.641 INFO: Sensor C# Properties [csharp] (done) | time=0ms
+15:37:21.641 INFO: Sensor HTML [web]
+15:37:21.642 INFO: Sensor HTML [web] (done) | time=1ms
+15:37:21.642 INFO: Sensor Text Sensor [text]
+15:37:21.644 INFO: 1 source file to be analyzed
+15:37:21.649 DEBUG: 'src/javascript/Person.js' generated metadata with charset 'UTF-8'
+15:37:21.650 INFO: 1/1 source file has been analyzed
+15:37:21.650 INFO: Sensor Text Sensor [text] (done) | time=8ms
+15:37:21.650 INFO: Sensor VB.NET Project Type Information [vbnet]
+15:37:21.650 INFO: Sensor VB.NET Project Type Information [vbnet] (done) | time=0ms
+15:37:21.650 INFO: Sensor VB.NET Analysis Log [vbnet]
+15:37:21.662 DEBUG: Project 'org.sonarqube:sonarqube-scanner': Property missing: 'sonar.vbnet.analyzer.projectOutPaths'. No protobuf files will be loaded for this project.
+15:37:21.662 INFO: Sensor VB.NET Analysis Log [vbnet] (done) | time=12ms
+15:37:21.662 INFO: Sensor VB.NET Properties [vbnet]
+15:37:21.662 DEBUG: Project 'org.sonarqube:sonarqube-scanner': Property missing: 'sonar.vbnet.analyzer.projectOutPaths'. No protobuf files will be loaded for this project.
+15:37:21.662 DEBUG: Project 'org.sonarqube:sonarqube-scanner': No Roslyn issues reports have been found.
+15:37:21.663 INFO: Sensor VB.NET Properties [vbnet] (done) | time=1ms
+15:37:21.663 INFO: Sensor JaCoCo XML Report Importer [jacoco]
+15:37:21.664 INFO: 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+15:37:21.664 INFO: No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+15:37:21.664 INFO: Sensor JaCoCo XML Report Importer [jacoco] (done) | time=1ms
+15:37:21.664 INFO: Sensor JavaScript analysis [javascript]
+15:37:21.666 DEBUG: Deploying bundle
+15:37:21.666 DEBUG: Deploying eslint-bridge into /home/lukasz.kwapien/Downloads/sonar-scanning-examples-master/sonarqube-scanner/.scannerwork/.sonartmp/eslint-bridge-bundle
+15:37:22.343 DEBUG: Deploying bundle (done) | time=677ms
+15:37:22.344 INFO: Deploying custom rules bundle jar:file:/home/lukasz.kwapien/.sonar/cache/06b160cbad8e9f8df7328b1a2c5a0afe/sonar-securityjsfrontend-plugin.jar!/js-vulnerabilities-rules-1.0.0.tgz to /home/lukasz.kwapien/Downloads/sonar-scanning-examples-master/sonarqube-scanner/.scannerwork/.sonartmp/eslint-bridge-bundle/package/custom-rules17867684310724307815
+15:37:22.346 DEBUG: Starting server
+15:37:22.348 DEBUG: Using default Node.js executable: 'node'.
+15:37:22.348 DEBUG: Checking Node.js version
+15:37:22.348 DEBUG: Launching command node -v
+15:37:22.356 DEBUG: Using Node.js v16.16.0.
+15:37:22.356 DEBUG: Starting Node.js process to start eslint-bridge server at port 36413
+15:37:22.356 DEBUG: Launching command node /home/lukasz.kwapien/Downloads/sonar-scanning-examples-master/sonarqube-scanner/.scannerwork/.sonartmp/eslint-bridge-bundle/package/bin/server 36413 127.0.0.1 /home/lukasz.kwapien/Downloads/sonar-scanning-examples-master/sonarqube-scanner/.scannerwork true false /home/lukasz.kwapien/Downloads/sonar-scanning-examples-master/sonarqube-scanner/.scannerwork/.sonartmp/eslint-bridge-bundle/package/custom-rules17867684310724307815/package
+15:37:23.272 DEBUG: Loaded rules ucfg from /home/lukasz.kwapien/Downloads/sonar-scanning-examples-master/sonarqube-scanner/.scannerwork/.sonartmp/eslint-bridge-bundle/package/custom-rules17867684310724307815/package
+15:37:23.272 DEBUG: starting eslint-bridge server at port 36413
+15:37:23.276 DEBUG: eslint-bridge server is running at port 36413
+15:37:23.341 DEBUG: Starting server (done) | time=995ms
+15:37:23.347 DEBUG: Using generated tsconfig.json file /home/lukasz.kwapien/Downloads/sonar-scanning-examples-master/sonarqube-scanner/.scannerwork/.sonartmp/10003252599026927090.tmp
+15:37:23.349 INFO: 1 source file to be analyzed
+15:37:23.361 DEBUG: initializing linter with no-vue-bypass-sanitization,hashing,for-loop-increment-sign,no-globals-shadowing,null-dereference,unverified-hostname,no-extra-arguments,no-redeclare,constructor-for-side-effects,post-message,cookie-no-httponly,weak-ssl,no-useless-increment,no-throw-literal,pseudo-random,no-use-of-empty-return-value,session-regeneration,no-associative-arrays,no-weak-keys,confidential-information-logging,no-ip-forward,single-character-alternation,unused-named-groups,dns-prefetching,arguments-order,inconsistent-function-call,certificate-transparency,no-same-argument-assert,file-uploads,no-inverted-boolean-check,sonar-no-misleading-character-class,duplicates-in-character-class,todo-tag,fixme-tag,no-mixed-content,anchor-precedence,frame-ancestors,no-angular-bypass-sanitization,array-callback-without-return,slow-regex,prefer-default-last,no-mime-sniff,no-commented-code,no-gratuitous-expressions,no-empty-pattern,no-referrer-policy,sonar-no-fallthrough,sonar-no-invalid-regexp,file-name-differ-from-class,strict-transport-security,no-unsafe-finally,prefer-while,sonar-no-unused-vars,index-of-compare-to-positive-number,argument-type,empty-string-repetition,in-operator-type-error,prefer-promise-shorthand,prefer-immediate-return,regex-complexity,assertions-in-tests,no-intrusive-permissions,disabled-resource-integrity,no-empty-after-reluctant,content-security-policy,no-labels,no-shadow,no-extra-semi,no-redundant-parentheses,no-unenclosed-multiline-block,call-argument-line,generator-without-yield,no-ignored-return,no-caller,csrf,cognitive-complexity,use-isnan,no-nested-template-literals,inverted-assertion-arguments,max-switch-cases,test-check-exception,production-debug,unused-import,prefer-single-boolean-return,no-redundant-boolean,no-nested-assignment,no-unsafe-unzip,concise-regex,updated-loop-counter,no-setter-return,different-types-comparison,no-case-label-in-switch,no-in-misuse,no-misleading-array-reverse,no-redundant-assignments,os-command,no-invariant-returns,no-parameter-reassignment,stateful-regex,no-accessor-field-mismatch,cors,no-empty-group,no-os-command-from-path,no-collection-size-mischeck,unverified-certificate,no-empty-collection,disabled-auto-escaping,updated-const-var,no-duplicate-imports,no-unthrown-error,no-var,no-redundant-jump,no-octal,no-hardcoded-ip,no-identical-functions,no-element-overwrite,prefer-regex-literals,sonar-no-regex-spaces,no-empty-alternatives,no-same-line-conditional,sonar-no-control-regex,conditional-indentation,super-invocation,no-try-promise,existing-groups,void-use,comma-or-logical-or-case,label-position,no-with,insecure-cookie,no-unused-collection,no-sequences,sql-queries,no-global-this,no-array-delete,no-alphabetical-sort,prefer-for-of,xml-parser-xxe,default-param-last,non-existent-operator,new-operator-misuse,no-sparse-arrays,content-length,no-clear-text-protocols,no-invalid-await,no-equals-in-for-termination,no-hardcoded-credentials,no-infinite-loop,no-primitive-wrappers,no-exclusive-tests,no-dupe-keys,no-self-assign,no-new-symbol,no-dupe-args,no-small-switch,publicly-writable-directories,no-incomplete-assertions,no-unreachable,x-powered-by,no-identical-expressions,code-eval,file-permissions,future-reserved-words,no-useless-catch,bitwise-operators,hidden-files,no-unused-expressions,no-empty,max-params,no-duplicated-branches,no-one-iteration-loop,misplaced-loop-counter,deprecation,no-unsafe-negation,function-inside-loop,no-multi-str,class-name,chai-determinate-assertion,sonar-block-scoped-var,no-code-after-done,no-delete-var,encryption-secure-mode,no-weak-cipher,no-identical-conditions,function-return-type,no-all-duplicated-branches,disabled-timeout,no-unused-function-argument,no-return-await,no-nested-conditional,insecure-jwt-token,no-dead-store,no-implicit-global,no-empty-function,ucfg,ucfg,ucfg,ucfg,ucfg,ucfg,ucfg,ucfg,ucfg,ucfg,ucfg,ucfg,ucfg,ucfg,ucfg
+15:37:23.943 DEBUG: Saving issue for rule no-var on line 1
+15:37:23.954 DEBUG: Saving issue for rule no-var on line 15
+15:37:23.954 DEBUG: Saving issue for rule use-isnan on line 17
+15:37:23.955 DEBUG: Saving issue for rule use-isnan on line 20
+15:37:23.955 DEBUG: Saving issue for rule no-var on line 24
+15:37:23.955 DEBUG: Saving issue for rule for-loop-increment-sign on line 24
+15:37:23.967 INFO: 1/1 source file has been analyzed
+15:37:23.967 INFO: Sensor JavaScript analysis [javascript] (done) | time=2303ms
+15:37:23.968 INFO: Sensor TypeScript analysis [javascript]
+15:37:23.969 INFO: No input files found for analysis
+15:37:23.969 INFO: Sensor TypeScript analysis [javascript] (done) | time=1ms
+15:37:23.969 INFO: Sensor CSS Rules [javascript]
+15:37:23.969 INFO: No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+15:37:23.969 INFO: Sensor CSS Rules [javascript] (done) | time=0ms
+15:37:23.969 INFO: Sensor ThymeLeaf template sensor [securityjavafrontend]
+15:37:23.969 INFO: Sensor ThymeLeaf template sensor [securityjavafrontend] (done) | time=0ms
+15:37:23.970 INFO: Sensor Serverless configuration file sensor [security]
+15:37:23.970 INFO: 0 Serverless function entries were found in the project
+15:37:23.971 INFO: 0 Serverless function handlers were kept as entrypoints
+15:37:23.971 INFO: Sensor Serverless configuration file sensor [security] (done) | time=1ms
+15:37:23.971 INFO: Sensor AWS SAM template file sensor [security]
+15:37:23.971 DEBUG: 0 SAM template configuration files were found in the project. 0 SAM function entries were found in total. 0 were kept as potential entrypoints.
+15:37:23.971 INFO: Sensor AWS SAM template file sensor [security] (done) | time=0ms
+15:37:23.971 INFO: Sensor javabugs [dbd]
+15:37:23.972 INFO: Reading IR files from: /home/lukasz.kwapien/Downloads/sonar-scanning-examples-master/sonarqube-scanner/.scannerwork/ir/java
+15:37:23.972 INFO: No IR files have been included for analysis.
+15:37:23.972 INFO: Sensor javabugs [dbd] (done) | time=1ms
+15:37:23.972 INFO: Sensor JavaSecuritySensor [security]
+15:37:23.972 INFO: Reading type hierarchy from: /home/lukasz.kwapien/Downloads/sonar-scanning-examples-master/sonarqube-scanner/.scannerwork/ucfg2/java
+15:37:23.972 INFO: Read 0 type definitions
+15:37:23.974 INFO: Reading UCFGs from: /home/lukasz.kwapien/Downloads/sonar-scanning-examples-master/sonarqube-scanner/.scannerwork/ucfg2/java
+15:37:23.974 INFO: No UCFGs have been included for analysis.
+15:37:23.974 INFO: Sensor JavaSecuritySensor [security] (done) | time=2ms
+15:37:23.974 INFO: Sensor CSharpSecuritySensor [security]
+15:37:23.974 INFO: Reading type hierarchy from: /home/lukasz.kwapien/Downloads/sonar-scanning-examples-master/sonarqube-scanner/ucfg_cs2
+15:37:23.974 INFO: Read 0 type definitions
+15:37:23.974 INFO: Reading UCFGs from: /home/lukasz.kwapien/Downloads/sonar-scanning-examples-master/sonarqube-scanner/ucfg_cs2
+15:37:23.974 INFO: No UCFGs have been included for analysis.
+15:37:23.974 INFO: Sensor CSharpSecuritySensor [security] (done) | time=0ms
+15:37:23.974 INFO: Sensor PhpSecuritySensor [security]
+15:37:23.974 INFO: Reading type hierarchy from: /home/lukasz.kwapien/Downloads/sonar-scanning-examples-master/sonarqube-scanner/.scannerwork/ucfg2/php
+15:37:23.974 INFO: Read 0 type definitions
+15:37:23.974 INFO: Reading UCFGs from: /home/lukasz.kwapien/Downloads/sonar-scanning-examples-master/sonarqube-scanner/.scannerwork/ucfg2/php
+15:37:23.974 INFO: No UCFGs have been included for analysis.
+15:37:23.974 INFO: Sensor PhpSecuritySensor [security] (done) | time=0ms
+15:37:23.974 INFO: Sensor PythonSecuritySensor [security]
+15:37:23.975 INFO: Reading type hierarchy from: /home/lukasz.kwapien/Downloads/sonar-scanning-examples-master/sonarqube-scanner/.scannerwork/ucfg2/python
+15:37:23.975 INFO: Read 0 type definitions
+15:37:23.975 INFO: Reading UCFGs from: /home/lukasz.kwapien/Downloads/sonar-scanning-examples-master/sonarqube-scanner/.scannerwork/ucfg2/python
+15:37:23.975 INFO: No UCFGs have been included for analysis.
+15:37:23.975 INFO: Sensor PythonSecuritySensor [security] (done) | time=1ms
+15:37:23.975 INFO: Sensor JsSecuritySensor [security]
+15:37:23.975 INFO: Reading type hierarchy from: /home/lukasz.kwapien/Downloads/sonar-scanning-examples-master/sonarqube-scanner/.scannerwork/ucfg2/js
+15:37:23.977 INFO: Read 0 type definitions
+15:37:23.977 INFO: Reading UCFGs from: /home/lukasz.kwapien/Downloads/sonar-scanning-examples-master/sonarqube-scanner/.scannerwork/ucfg2/js
+15:37:24.019 INFO: 15:37:24.018903 Building Runtime Type propagation graph
+15:37:24.023 INFO: 15:37:24.022127 Running Tarjan on 25 nodes
+15:37:24.024 INFO: 15:37:24.02443 Tarjan found 25 components
+15:37:24.025 INFO: 15:37:24.025421 Variable type analysis: done
+15:37:24.025 INFO: 15:37:24.025734 Building Runtime Type propagation graph
+15:37:24.026 INFO: 15:37:24.026248 Running Tarjan on 25 nodes
+15:37:24.026 INFO: 15:37:24.026337 Tarjan found 25 components
+15:37:24.026 INFO: 15:37:24.026404 Variable type analysis: done
+15:37:24.026 INFO: Analyzing 3 ucfgs to detect vulnerabilities.
+15:37:24.070 DEBUG: Resource file jssecurity/sources/S2076.json was not read
+15:37:24.070 DEBUG: Resource file jssecurity/sources/S2078.json was not read
+15:37:24.070 DEBUG: Resource file jssecurity/sources/S2083.json was not read
+15:37:24.070 DEBUG: Resource file jssecurity/sources/S2091.json was not read
+15:37:24.070 DEBUG: Resource file jssecurity/sources/S2631.json was not read
+15:37:24.070 DEBUG: Resource file jssecurity/sources/S3649.json was not read
+15:37:24.070 DEBUG: Resource file jssecurity/sources/S5131.json was not read
+15:37:24.070 DEBUG: Resource file jssecurity/sources/S5135.json was not read
+15:37:24.070 DEBUG: Resource file jssecurity/sources/S5144.json was not read
+15:37:24.070 DEBUG: Resource file jssecurity/sources/S5145.json was not read
+15:37:24.070 DEBUG: Resource file jssecurity/sources/S5146.json was not read
+15:37:24.070 DEBUG: Resource file jssecurity/sources/S5147.json was not read
+15:37:24.070 DEBUG: Resource file jssecurity/sources/S5167.json was not read
+15:37:24.070 DEBUG: Resource file jssecurity/sources/S5334.json was not read
+15:37:24.070 DEBUG: Resource file jssecurity/sources/S5335.json was not read
+15:37:24.070 DEBUG: Resource file jssecurity/sources/S5696.json was not read
+15:37:24.070 DEBUG: Resource file jssecurity/sources/S5883.json was not read
+15:37:24.070 DEBUG: Resource file jssecurity/sources/S6096.json was not read
+15:37:24.071 DEBUG: Resource file jssecurity/sources/S6105.json was not read
+15:37:24.071 DEBUG: Resource file jssecurity/sources/S6173.json was not read
+15:37:24.071 DEBUG: Resource file jssecurity/sources/S6287.json was not read
+15:37:24.071 DEBUG: Resource file jssecurity/sources/S6350.json was not read
+15:37:24.071 DEBUG: Resource file jssecurity/sources/S6384.json was not read
+15:37:24.071 DEBUG: Resource file jssecurity/sources/S6390.json was not read
+15:37:24.071 DEBUG: Resource file jssecurity/sources/S6398.json was not read
+15:37:24.071 DEBUG: Resource file jssecurity/sources/S6399.json was not read
+15:37:24.071 DEBUG: Resource file jssecurity-autogenerated/sources/common.json was not read
+15:37:24.071 DEBUG: Resource file jssecurity-autogenerated/sources/S2076.json was not read
+15:37:24.071 DEBUG: Resource file jssecurity-autogenerated/sources/S2078.json was not read
+15:37:24.071 DEBUG: Resource file jssecurity-autogenerated/sources/S2083.json was not read
+15:37:24.071 DEBUG: Resource file jssecurity-autogenerated/sources/S2091.json was not read
+15:37:24.071 DEBUG: Resource file jssecurity-autogenerated/sources/S2631.json was not read
+15:37:24.071 DEBUG: Resource file jssecurity-autogenerated/sources/S3649.json was not read
+15:37:24.071 DEBUG: Resource file jssecurity-autogenerated/sources/S5131.json was not read
+15:37:24.071 DEBUG: Resource file jssecurity-autogenerated/sources/S5135.json was not read
+15:37:24.071 DEBUG: Resource file jssecurity-autogenerated/sources/S5144.json was not read
+15:37:24.071 DEBUG: Resource file jssecurity-autogenerated/sources/S5145.json was not read
+15:37:24.071 DEBUG: Resource file jssecurity-autogenerated/sources/S5146.json was not read
+15:37:24.071 DEBUG: Resource file jssecurity-autogenerated/sources/S5147.json was not read
+15:37:24.071 DEBUG: Resource file jssecurity-autogenerated/sources/S5167.json was not read
+15:37:24.071 DEBUG: Resource file jssecurity-autogenerated/sources/S5334.json was not read
+15:37:24.071 DEBUG: Resource file jssecurity-autogenerated/sources/S5335.json was not read
+15:37:24.071 DEBUG: Resource file jssecurity-autogenerated/sources/S5696.json was not read
+15:37:24.071 DEBUG: Resource file jssecurity-autogenerated/sources/S5883.json was not read
+15:37:24.071 DEBUG: Resource file jssecurity-autogenerated/sources/S6096.json was not read
+15:37:24.071 DEBUG: Resource file jssecurity-autogenerated/sources/S6105.json was not read
+15:37:24.071 DEBUG: Resource file jssecurity-autogenerated/sources/S6173.json was not read
+15:37:24.071 DEBUG: Resource file jssecurity-autogenerated/sources/S6287.json was not read
+15:37:24.071 DEBUG: Resource file jssecurity-autogenerated/sources/S6350.json was not read
+15:37:24.071 DEBUG: Resource file jssecurity-autogenerated/sources/S6384.json was not read
+15:37:24.071 DEBUG: Resource file jssecurity-autogenerated/sources/S6390.json was not read
+15:37:24.071 DEBUG: Resource file jssecurity-autogenerated/sources/S6398.json was not read
+15:37:24.071 DEBUG: Resource file jssecurity-autogenerated/sources/S6399.json was not read
+15:37:24.073 DEBUG: loaded 1 sources.
+15:37:24.075 DEBUG: Resource file jssecurity/sanitizers/S2076.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity/sanitizers/S2078.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity/sanitizers/S2083.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity/sanitizers/S2091.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity/sanitizers/S2631.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity/sanitizers/S3649.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity/sanitizers/S5131.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity/sanitizers/S5135.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity/sanitizers/S5144.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity/sanitizers/S5145.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity/sanitizers/S5146.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity/sanitizers/S5147.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity/sanitizers/S5167.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity/sanitizers/S5334.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity/sanitizers/S5335.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity/sanitizers/S5696.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity/sanitizers/S5883.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity/sanitizers/S6096.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity/sanitizers/S6105.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity/sanitizers/S6173.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity/sanitizers/S6287.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity/sanitizers/S6350.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity/sanitizers/S6384.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity/sanitizers/S6390.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity/sanitizers/S6398.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity/sanitizers/S6399.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity-autogenerated/sanitizers/common.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity-autogenerated/sanitizers/S2076.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity-autogenerated/sanitizers/S2078.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity-autogenerated/sanitizers/S2083.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity-autogenerated/sanitizers/S2091.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity-autogenerated/sanitizers/S2631.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity-autogenerated/sanitizers/S3649.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity-autogenerated/sanitizers/S5131.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity-autogenerated/sanitizers/S5135.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity-autogenerated/sanitizers/S5144.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity-autogenerated/sanitizers/S5145.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity-autogenerated/sanitizers/S5146.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity-autogenerated/sanitizers/S5147.json was not read
+15:37:24.075 DEBUG: Resource file jssecurity-autogenerated/sanitizers/S5167.json was not read
+15:37:24.076 DEBUG: Resource file jssecurity-autogenerated/sanitizers/S5334.json was not read
+15:37:24.076 DEBUG: Resource file jssecurity-autogenerated/sanitizers/S5335.json was not read
+15:37:24.076 DEBUG: Resource file jssecurity-autogenerated/sanitizers/S5696.json was not read
+15:37:24.076 DEBUG: Resource file jssecurity-autogenerated/sanitizers/S5883.json was not read
+15:37:24.076 DEBUG: Resource file jssecurity-autogenerated/sanitizers/S6096.json was not read
+15:37:24.076 DEBUG: Resource file jssecurity-autogenerated/sanitizers/S6105.json was not read
+15:37:24.076 DEBUG: Resource file jssecurity-autogenerated/sanitizers/S6173.json was not read
+15:37:24.076 DEBUG: Resource file jssecurity-autogenerated/sanitizers/S6287.json was not read
+15:37:24.076 DEBUG: Resource file jssecurity-autogenerated/sanitizers/S6350.json was not read
+15:37:24.076 DEBUG: Resource file jssecurity-autogenerated/sanitizers/S6384.json was not read
+15:37:24.076 DEBUG: Resource file jssecurity-autogenerated/sanitizers/S6390.json was not read
+15:37:24.076 DEBUG: Resource file jssecurity-autogenerated/sanitizers/S6398.json was not read
+15:37:24.076 DEBUG: Resource file jssecurity-autogenerated/sanitizers/S6399.json was not read
+15:37:24.076 DEBUG: loaded 1 sanitizers.
+15:37:24.077 DEBUG: Resource file jssecurity/validators/S2076.json was not read
+15:37:24.078 DEBUG: Resource file jssecurity/validators/S2078.json was not read
+15:37:24.078 DEBUG: Resource file jssecurity/validators/S2083.json was not read
+15:37:24.078 DEBUG: Resource file jssecurity/validators/S2091.json was not read
+15:37:24.078 DEBUG: Resource file jssecurity/validators/S2631.json was not read
+15:37:24.078 DEBUG: Resource file jssecurity/validators/S3649.json was not read
+15:37:24.078 DEBUG: Resource file jssecurity/validators/S5131.json was not read
+15:37:24.078 DEBUG: Resource file jssecurity/validators/S5135.json was not read
+15:37:24.078 DEBUG: Resource file jssecurity/validators/S5144.json was not read
+15:37:24.078 DEBUG: Resource file jssecurity/validators/S5145.json was not read
+15:37:24.078 DEBUG: Resource file jssecurity/validators/S5146.json was not read
+15:37:24.078 DEBUG: Resource file jssecurity/validators/S5167.json was not read
+15:37:24.078 DEBUG: Resource file jssecurity/validators/S5334.json was not read
+15:37:24.078 DEBUG: Resource file jssecurity/validators/S5335.json was not read
+15:37:24.078 DEBUG: Resource file jssecurity/validators/S5696.json was not read
+15:37:24.078 DEBUG: Resource file jssecurity/validators/S5883.json was not read
+15:37:24.078 DEBUG: Resource file jssecurity/validators/S6096.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity/validators/S6105.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity/validators/S6173.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity/validators/S6287.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity/validators/S6350.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity/validators/S6384.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity/validators/S6390.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity/validators/S6398.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity/validators/S6399.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity-autogenerated/validators/common.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity-autogenerated/validators/S2076.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity-autogenerated/validators/S2078.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity-autogenerated/validators/S2083.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity-autogenerated/validators/S2091.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity-autogenerated/validators/S2631.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity-autogenerated/validators/S3649.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity-autogenerated/validators/S5131.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity-autogenerated/validators/S5135.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity-autogenerated/validators/S5144.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity-autogenerated/validators/S5145.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity-autogenerated/validators/S5146.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity-autogenerated/validators/S5147.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity-autogenerated/validators/S5167.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity-autogenerated/validators/S5334.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity-autogenerated/validators/S5335.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity-autogenerated/validators/S5696.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity-autogenerated/validators/S5883.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity-autogenerated/validators/S6096.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity-autogenerated/validators/S6105.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity-autogenerated/validators/S6173.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity-autogenerated/validators/S6287.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity-autogenerated/validators/S6350.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity-autogenerated/validators/S6384.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity-autogenerated/validators/S6390.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity-autogenerated/validators/S6398.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity-autogenerated/validators/S6399.json was not read
+15:37:24.079 DEBUG: loaded 3 validators.
+15:37:24.079 DEBUG: Resource file jssecurity/passthroughs/common.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity/passthroughs/S2076.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity/passthroughs/S2078.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity/passthroughs/S2083.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity/passthroughs/S2091.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity/passthroughs/S2631.json was not read
+15:37:24.079 DEBUG: Resource file jssecurity/passthroughs/S3649.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity/passthroughs/S5131.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity/passthroughs/S5135.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity/passthroughs/S5144.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity/passthroughs/S5145.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity/passthroughs/S5146.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity/passthroughs/S5147.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity/passthroughs/S5167.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity/passthroughs/S5334.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity/passthroughs/S5335.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity/passthroughs/S5696.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity/passthroughs/S5883.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity/passthroughs/S6096.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity/passthroughs/S6105.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity/passthroughs/S6173.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity/passthroughs/S6287.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity/passthroughs/S6350.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity/passthroughs/S6384.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity/passthroughs/S6390.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity/passthroughs/S6398.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity/passthroughs/S6399.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity-autogenerated/passthroughs/common.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity-autogenerated/passthroughs/S2076.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity-autogenerated/passthroughs/S2078.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity-autogenerated/passthroughs/S2083.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity-autogenerated/passthroughs/S2091.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity-autogenerated/passthroughs/S2631.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity-autogenerated/passthroughs/S3649.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity-autogenerated/passthroughs/S5131.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity-autogenerated/passthroughs/S5135.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity-autogenerated/passthroughs/S5144.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity-autogenerated/passthroughs/S5145.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity-autogenerated/passthroughs/S5146.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity-autogenerated/passthroughs/S5147.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity-autogenerated/passthroughs/S5167.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity-autogenerated/passthroughs/S5334.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity-autogenerated/passthroughs/S5335.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity-autogenerated/passthroughs/S5696.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity-autogenerated/passthroughs/S5883.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity-autogenerated/passthroughs/S6096.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity-autogenerated/passthroughs/S6105.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity-autogenerated/passthroughs/S6173.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity-autogenerated/passthroughs/S6287.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity-autogenerated/passthroughs/S6350.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity-autogenerated/passthroughs/S6384.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity-autogenerated/passthroughs/S6390.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity-autogenerated/passthroughs/S6398.json was not read
+15:37:24.080 DEBUG: Resource file jssecurity-autogenerated/passthroughs/S6399.json was not read
+15:37:24.080 DEBUG: loaded 0 passthroughs.
+15:37:24.081 DEBUG: Resource file jssecurity/collectionHandlers/common.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity/collectionHandlers/S2076.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity/collectionHandlers/S2078.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity/collectionHandlers/S2083.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity/collectionHandlers/S2091.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity/collectionHandlers/S2631.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity/collectionHandlers/S3649.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity/collectionHandlers/S5131.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity/collectionHandlers/S5135.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity/collectionHandlers/S5144.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity/collectionHandlers/S5145.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity/collectionHandlers/S5146.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity/collectionHandlers/S5147.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity/collectionHandlers/S5167.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity/collectionHandlers/S5334.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity/collectionHandlers/S5335.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity/collectionHandlers/S5696.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity/collectionHandlers/S5883.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity/collectionHandlers/S6096.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity/collectionHandlers/S6105.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity/collectionHandlers/S6173.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity/collectionHandlers/S6287.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity/collectionHandlers/S6350.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity/collectionHandlers/S6384.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity/collectionHandlers/S6390.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity/collectionHandlers/S6398.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity/collectionHandlers/S6399.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity-autogenerated/collectionHandlers/common.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity-autogenerated/collectionHandlers/S2076.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity-autogenerated/collectionHandlers/S2078.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity-autogenerated/collectionHandlers/S2083.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity-autogenerated/collectionHandlers/S2091.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity-autogenerated/collectionHandlers/S2631.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity-autogenerated/collectionHandlers/S3649.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity-autogenerated/collectionHandlers/S5131.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity-autogenerated/collectionHandlers/S5135.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity-autogenerated/collectionHandlers/S5144.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity-autogenerated/collectionHandlers/S5145.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity-autogenerated/collectionHandlers/S5146.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity-autogenerated/collectionHandlers/S5147.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity-autogenerated/collectionHandlers/S5167.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity-autogenerated/collectionHandlers/S5334.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity-autogenerated/collectionHandlers/S5335.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity-autogenerated/collectionHandlers/S5696.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity-autogenerated/collectionHandlers/S5883.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity-autogenerated/collectionHandlers/S6096.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity-autogenerated/collectionHandlers/S6105.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity-autogenerated/collectionHandlers/S6173.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity-autogenerated/collectionHandlers/S6287.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity-autogenerated/collectionHandlers/S6350.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity-autogenerated/collectionHandlers/S6384.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity-autogenerated/collectionHandlers/S6390.json was not read
+15:37:24.081 DEBUG: Resource file jssecurity-autogenerated/collectionHandlers/S6398.json was not read
+15:37:24.082 DEBUG: Resource file jssecurity-autogenerated/collectionHandlers/S6399.json was not read
+15:37:24.082 DEBUG: loaded 0 collectionHandlers.
+15:37:24.083 DEBUG: Resource file jssecurity/sinks/S2076.json was not read
+15:37:24.083 DEBUG: Resource file jssecurity/sinks/S2078.json was not read
+15:37:24.083 DEBUG: Resource file jssecurity/sinks/S2083.json was not read
+15:37:24.083 DEBUG: Resource file jssecurity/sinks/S2091.json was not read
+15:37:24.083 DEBUG: Resource file jssecurity/sinks/S2631.json was not read
+15:37:24.083 DEBUG: Resource file jssecurity/sinks/S3649.json was not read
+15:37:24.083 DEBUG: Resource file jssecurity/sinks/S5131.json was not read
+15:37:24.083 DEBUG: Resource file jssecurity/sinks/S5135.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity/sinks/S5144.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity/sinks/S5145.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity/sinks/S5146.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity/sinks/S5147.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity/sinks/S5167.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity/sinks/S5334.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity/sinks/S5335.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity/sinks/S5696.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity/sinks/S5883.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity/sinks/S6096.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity/sinks/S6105.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity/sinks/S6173.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity/sinks/S6287.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity/sinks/S6350.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity/sinks/S6384.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity/sinks/S6390.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity/sinks/S6398.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity/sinks/S6399.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity-autogenerated/sinks/common.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity-autogenerated/sinks/S2076.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity-autogenerated/sinks/S2078.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity-autogenerated/sinks/S2083.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity-autogenerated/sinks/S2091.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity-autogenerated/sinks/S2631.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity-autogenerated/sinks/S3649.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity-autogenerated/sinks/S5131.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity-autogenerated/sinks/S5135.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity-autogenerated/sinks/S5144.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity-autogenerated/sinks/S5145.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity-autogenerated/sinks/S5146.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity-autogenerated/sinks/S5147.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity-autogenerated/sinks/S5167.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity-autogenerated/sinks/S5334.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity-autogenerated/sinks/S5335.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity-autogenerated/sinks/S5696.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity-autogenerated/sinks/S5883.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity-autogenerated/sinks/S6096.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity-autogenerated/sinks/S6105.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity-autogenerated/sinks/S6173.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity-autogenerated/sinks/S6287.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity-autogenerated/sinks/S6350.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity-autogenerated/sinks/S6384.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity-autogenerated/sinks/S6390.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity-autogenerated/sinks/S6398.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity-autogenerated/sinks/S6399.json was not read
+15:37:24.084 DEBUG: loaded 1 sinks.
+15:37:24.084 DEBUG: Resource file jssecurity/encoders/common.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity/encoders/S2076.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity/encoders/S2078.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity/encoders/S2083.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity/encoders/S2091.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity/encoders/S2631.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity/encoders/S3649.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity/encoders/S5131.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity/encoders/S5135.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity/encoders/S5144.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity/encoders/S5145.json was not read
+15:37:24.084 DEBUG: Resource file jssecurity/encoders/S5146.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity/encoders/S5147.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity/encoders/S5167.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity/encoders/S5334.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity/encoders/S5335.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity/encoders/S5696.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity/encoders/S5883.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity/encoders/S6096.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity/encoders/S6105.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity/encoders/S6173.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity/encoders/S6287.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity/encoders/S6350.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity/encoders/S6384.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity/encoders/S6390.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity/encoders/S6398.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity/encoders/S6399.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity-autogenerated/encoders/common.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity-autogenerated/encoders/S2076.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity-autogenerated/encoders/S2078.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity-autogenerated/encoders/S2083.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity-autogenerated/encoders/S2091.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity-autogenerated/encoders/S2631.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity-autogenerated/encoders/S3649.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity-autogenerated/encoders/S5131.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity-autogenerated/encoders/S5135.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity-autogenerated/encoders/S5144.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity-autogenerated/encoders/S5145.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity-autogenerated/encoders/S5146.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity-autogenerated/encoders/S5147.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity-autogenerated/encoders/S5167.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity-autogenerated/encoders/S5334.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity-autogenerated/encoders/S5335.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity-autogenerated/encoders/S5696.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity-autogenerated/encoders/S5883.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity-autogenerated/encoders/S6096.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity-autogenerated/encoders/S6105.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity-autogenerated/encoders/S6173.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity-autogenerated/encoders/S6287.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity-autogenerated/encoders/S6350.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity-autogenerated/encoders/S6384.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity-autogenerated/encoders/S6390.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity-autogenerated/encoders/S6398.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity-autogenerated/encoders/S6399.json was not read
+15:37:24.085 DEBUG: loaded 0 encoders.
+15:37:24.085 DEBUG: Resource file jssecurity/decoders/common.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity/decoders/S2076.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity/decoders/S2078.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity/decoders/S2083.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity/decoders/S2091.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity/decoders/S2631.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity/decoders/S3649.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity/decoders/S5131.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity/decoders/S5135.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity/decoders/S5144.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity/decoders/S5145.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity/decoders/S5146.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity/decoders/S5147.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity/decoders/S5167.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity/decoders/S5334.json was not read
+15:37:24.085 DEBUG: Resource file jssecurity/decoders/S5335.json was not read
+15:37:24.086 DEBUG: Resource file jssecurity/decoders/S5696.json was not read
+15:37:24.086 DEBUG: Resource file jssecurity/decoders/S5883.json was not read
+15:37:24.086 DEBUG: Resource file jssecurity/decoders/S6096.json was not read
+15:37:24.086 DEBUG: Resource file jssecurity/decoders/S6105.json was not read
+15:37:24.086 DEBUG: Resource file jssecurity/decoders/S6173.json was not read
+15:37:24.086 DEBUG: Resource file jssecurity/decoders/S6287.json was not read
+15:37:24.086 DEBUG: Resource file jssecurity/decoders/S6350.json was not read
+15:37:24.086 DEBUG: Resource file jssecurity/decoders/S6384.json was not read
+15:37:24.086 DEBUG: Resource file jssecurity/decoders/S6390.json was not read
+15:37:24.086 DEBUG: Resource file jssecurity/decoders/S6398.json was not read
+15:37:24.086 DEBUG: Resource file jssecurity/decoders/S6399.json was not read
+15:37:24.086 DEBUG: Resource file jssecurity-autogenerated/decoders/common.json was not read
+15:37:24.086 DEBUG: Resource file jssecurity-autogenerated/decoders/S2076.json was not read
+15:37:24.086 DEBUG: Resource file jssecurity-autogenerated/decoders/S2078.json was not read
+15:37:24.086 DEBUG: Resource file jssecurity-autogenerated/decoders/S2083.json was not read
+15:37:24.086 DEBUG: Resource file jssecurity-autogenerated/decoders/S2091.json was not read
+15:37:24.086 DEBUG: Resource file jssecurity-autogenerated/decoders/S2631.json was not read
+15:37:24.086 DEBUG: Resource file jssecurity-autogenerated/decoders/S3649.json was not read
+15:37:24.086 DEBUG: Resource file jssecurity-autogenerated/decoders/S5131.json was not read
+15:37:24.086 DEBUG: Resource file jssecurity-autogenerated/decoders/S5135.json was not read
+15:37:24.086 DEBUG: Resource file jssecurity-autogenerated/decoders/S5144.json was not read
+15:37:24.086 DEBUG: Resource file jssecurity-autogenerated/decoders/S5145.json was not read
+15:37:24.086 DEBUG: Resource file jssecurity-autogenerated/decoders/S5146.json was not read
+15:37:24.086 DEBUG: Resource file jssecurity-autogenerated/decoders/S5147.json was not read
+15:37:24.086 DEBUG: Resource file jssecurity-autogenerated/decoders/S5167.json was not read
+15:37:24.086 DEBUG: Resource file jssecurity-autogenerated/decoders/S5334.json was not read
+15:37:24.086 DEBUG: Resource file jssecurity-autogenerated/decoders/S5335.json was not read
+15:37:24.086 DEBUG: Resource file jssecurity-autogenerated/decoders/S5696.json was not read
+15:37:24.086 DEBUG: Resource file jssecurity-autogenerated/decoders/S5883.json was not read
+15:37:24.086 DEBUG: Resource file jssecurity-autogenerated/decoders/S6096.json was not read
+15:37:24.086 DEBUG: Resource file jssecurity-autogenerated/decoders/S6105.json was not read
+15:37:24.086 DEBUG: Resource file jssecurity-autogenerated/decoders/S6173.json was not read
+15:37:24.086 DEBUG: Resource file jssecurity-autogenerated/decoders/S6287.json was not read
+15:37:24.086 DEBUG: Resource file jssecurity-autogenerated/decoders/S6350.json was not read
+15:37:24.086 DEBUG: Resource file jssecurity-autogenerated/decoders/S6384.json was not read
+15:37:24.086 DEBUG: Resource file jssecurity-autogenerated/decoders/S6390.json was not read
+15:37:24.086 DEBUG: Resource file jssecurity-autogenerated/decoders/S6398.json was not read
+15:37:24.086 DEBUG: Resource file jssecurity-autogenerated/decoders/S6399.json was not read
+15:37:24.086 DEBUG: loaded 0 decoders.
+15:37:24.105 INFO: Taint analysis starting. Entrypoints: 2
+15:37:24.105 INFO: Running symbolic analysis for 'JS'
+15:37:24.159 DEBUG: Adding stub adm-zip
+15:37:24.159 DEBUG: Adding stub @angular/core
+15:37:24.160 DEBUG: Adding stub any-shell-escape
+15:37:24.160 DEBUG: Adding stub async
+15:37:24.160 DEBUG: Adding stub aws-sdk
+15:37:24.161 DEBUG: Adding stub @aws-sdk/client-athena
+15:37:24.161 DEBUG: Adding stub @aws-sdk/client-rds-data
+15:37:24.161 DEBUG: Adding stub @aws-sdk/client-redshift-data
+15:37:24.161 DEBUG: Adding stub @aws-sdk/client-dynamodb
+15:37:24.161 DEBUG: Adding stub axios
+15:37:24.164 DEBUG: Adding stub beeline
+15:37:24.164 DEBUG: Adding stub better-sqlite3
+15:37:24.164 DEBUG: Adding stub bluebird
+15:37:24.165 DEBUG: Adding stub child_process
+15:37:24.166 DEBUG: Adding stub chokidar
+15:37:24.166 DEBUG: Adding stub chrome-remote-interface
+15:37:24.166 DEBUG: Adding stub commander
+15:37:24.167 DEBUG: Adding stub cp-file
+15:37:24.167 DEBUG: Adding stub cross-spawn
+15:37:24.167 DEBUG: Adding stub cross-spawn-async
+15:37:24.167 DEBUG: Adding stub del
+15:37:24.167 DEBUG: Adding stub dompurify
+15:37:24.167 DEBUG: Adding stub isomorphic-dompurify
+15:37:24.168 DEBUG: Adding stub escape-string-regexp
+15:37:24.168 DEBUG: Adding stub events
+15:37:24.168 DEBUG: Adding stub exec
+15:37:24.168 DEBUG: Adding stub execa
+15:37:24.168 DEBUG: Adding stub exec-async
+15:37:24.168 DEBUG: Adding stub express
+15:37:24.172 DEBUG: Adding stub body-parser
+15:37:24.174 DEBUG: Adding stub file-system
+15:37:24.175 DEBUG: Adding stub file-type
+15:37:24.175 DEBUG: Adding stub foreground-child
+15:37:24.175 DEBUG: Adding stub fs
+15:37:24.176 DEBUG: Adding stub fs/promises
+15:37:24.176 DEBUG: Adding stub original-fs
+15:37:24.176 DEBUG: Adding stub original-fs/promises
+15:37:24.177 DEBUG: Adding stub fs-extra
+15:37:24.177 DEBUG: Adding stub fs.realpath
+15:37:24.177 DEBUG: Adding stub got
+15:37:24.178 DEBUG: Adding stub graceful-fs
+15:37:24.178 DEBUG: Adding stub hpagent
+15:37:24.178 DEBUG: Adding stub http
+15:37:24.184 DEBUG: Adding stub https
+15:37:24.186 DEBUG: Adding stub http2
+15:37:24.187 DEBUG: Adding stub jsonfile
+15:37:24.188 DEBUG: Adding stub knex
+15:37:24.189 DEBUG: Adding stub load-json-file
+15:37:24.189 DEBUG: Adding stub lodash
+15:37:24.189 DEBUG: Adding stub make-dir
+15:37:24.190 DEBUG: Adding stub marsdb
+15:37:24.190 DEBUG: Adding stub mathjs
+15:37:24.190 DEBUG: Adding stub memfs
+15:37:24.191 DEBUG: Adding stub mkdirp
+15:37:24.191 DEBUG: Adding stub module
+15:37:24.191 DEBUG: Adding stub mongodb
+15:37:24.193 DEBUG: Adding stub mongoose
+15:37:24.197 DEBUG: Adding stub mongo-sanitize
+15:37:24.197 DEBUG: Adding stub express-mongo-sanitize
+15:37:24.198 DEBUG: Adding stub mssql
+15:37:24.199 DEBUG: Adding stub mysql
+15:37:24.199 DEBUG: Adding stub mysql2
+15:37:24.199 DEBUG: Adding stub mysql2/promise
+15:37:24.199 DEBUG: Adding stub needle
+15:37:24.200 DEBUG: Adding stub net
+15:37:24.201 DEBUG: Adding stub tls
+15:37:24.202 DEBUG: Adding stub next/router
+15:37:24.202 DEBUG: Adding stub node-fetch
+15:37:24.202 DEBUG: Adding stub opener
+15:37:24.202 DEBUG: Adding stub path
+15:37:24.203 DEBUG: Adding stub parse-torrent
+15:37:24.203 DEBUG: Adding stub pg
+15:37:24.203 DEBUG: Adding stub pg-escape
+15:37:24.203 DEBUG: Adding stub pg-pool
+15:37:24.203 DEBUG: Adding stub pg-promise
+15:37:24.204 DEBUG: Adding stub printf
+15:37:24.204 DEBUG: Adding stub process
+15:37:24.204 DEBUG: Adding stub puka
+15:37:24.204 DEBUG: Adding stub qs
+15:37:24.205 DEBUG: Adding stub ramda
+15:37:24.205 DEBUG: Adding stub react
+15:37:24.206 DEBUG: Adding stub react-dom
+15:37:24.206 DEBUG: Adding stub read-chunk
+15:37:24.206 DEBUG: Adding stub readdirp
+15:37:24.207 DEBUG: Adding stub regex-escape
+15:37:24.207 DEBUG: Adding stub remote-exec
+15:37:24.207 DEBUG: Adding stub request
+15:37:24.207 DEBUG: Adding stub resolve-path
+15:37:24.207 DEBUG: Adding stub sanitize-html
+15:37:24.207 DEBUG: Adding stub sanitize-html-react
+15:37:24.208 DEBUG: Adding stub @braintree/sanitize-url
+15:37:24.208 DEBUG: Adding stub sequelize
+15:37:24.208 DEBUG: Adding stub send
+15:37:24.208 DEBUG: Adding stub shell-escape-tag
+15:37:24.208 DEBUG: Adding stub shelljs
+15:37:24.208 DEBUG: Adding stub __sonar__
+15:37:24.210 DEBUG: Adding stub ssh2
+15:37:24.210 DEBUG: Adding stub sqlstring
+15:37:24.210 DEBUG: Adding stub sqlite3
+15:37:24.210 DEBUG: Adding stub ssh2-streams
+15:37:24.210 DEBUG: Adding stub tar-stream
+15:37:24.210 DEBUG: Adding stub tunnel
+15:37:24.211 DEBUG: Adding stub typeorm
+15:37:24.211 DEBUG: Adding stub underscore
+15:37:24.211 DEBUG: Adding stub url
+15:37:24.212 DEBUG: Adding stub querystringify
+15:37:24.212 DEBUG: Adding stub query-string
+15:37:24.212 DEBUG: Adding stub querystring
+15:37:24.212 DEBUG: Adding stub util
+15:37:24.212 DEBUG: Adding stub vm
+15:37:24.212 DEBUG: Adding stub webpack-dev-server
+15:37:24.215 DEBUG: Adding stub write
+15:37:24.215 DEBUG: Adding stub write-json-file
+15:37:24.215 DEBUG: Adding stub xregexp
+15:37:24.215 DEBUG: Adding stub xss
+15:37:24.217 DEBUG: Adding stub adm-zip
+15:37:24.217 DEBUG: Adding stub @angular/core
+15:37:24.217 DEBUG: Adding stub any-shell-escape
+15:37:24.217 DEBUG: Adding stub async
+15:37:24.217 DEBUG: Adding stub aws-sdk
+15:37:24.217 DEBUG: Adding stub @aws-sdk/client-athena
+15:37:24.217 DEBUG: Adding stub @aws-sdk/client-rds-data
+15:37:24.217 DEBUG: Adding stub @aws-sdk/client-redshift-data
+15:37:24.217 DEBUG: Adding stub @aws-sdk/client-dynamodb
+15:37:24.217 DEBUG: Adding stub axios
+15:37:24.217 DEBUG: Adding stub beeline
+15:37:24.217 DEBUG: Adding stub better-sqlite3
+15:37:24.217 DEBUG: Adding stub bluebird
+15:37:24.217 DEBUG: Adding stub child_process
+15:37:24.217 DEBUG: Adding stub chokidar
+15:37:24.218 DEBUG: Adding stub chrome-remote-interface
+15:37:24.218 DEBUG: Adding stub commander
+15:37:24.218 DEBUG: Adding stub cp-file
+15:37:24.218 DEBUG: Adding stub cross-spawn
+15:37:24.218 DEBUG: Adding stub cross-spawn-async
+15:37:24.218 DEBUG: Adding stub del
+15:37:24.218 DEBUG: Adding stub dompurify
+15:37:24.218 DEBUG: Adding stub isomorphic-dompurify
+15:37:24.218 DEBUG: Adding stub escape-string-regexp
+15:37:24.218 DEBUG: Adding stub events
+15:37:24.218 DEBUG: Adding stub exec
+15:37:24.218 DEBUG: Adding stub execa
+15:37:24.218 DEBUG: Adding stub exec-async
+15:37:24.218 DEBUG: Adding stub express
+15:37:24.219 DEBUG: Adding stub body-parser
+15:37:24.219 DEBUG: Adding stub file-system
+15:37:24.220 DEBUG: Adding stub file-type
+15:37:24.220 DEBUG: Adding stub foreground-child
+15:37:24.220 DEBUG: Adding stub fs
+15:37:24.220 DEBUG: Adding stub fs/promises
+15:37:24.220 DEBUG: Adding stub original-fs
+15:37:24.220 DEBUG: Adding stub original-fs/promises
+15:37:24.220 DEBUG: Adding stub fs-extra
+15:37:24.220 DEBUG: Adding stub fs.realpath
+15:37:24.220 DEBUG: Adding stub got
+15:37:24.220 DEBUG: Adding stub graceful-fs
+15:37:24.220 DEBUG: Adding stub hpagent
+15:37:24.220 DEBUG: Adding stub http
+15:37:24.221 DEBUG: Adding stub https
+15:37:24.222 DEBUG: Adding stub http2
+15:37:24.223 DEBUG: Adding stub jsonfile
+15:37:24.223 DEBUG: Adding stub knex
+15:37:24.223 DEBUG: Adding stub load-json-file
+15:37:24.223 DEBUG: Adding stub lodash
+15:37:24.223 DEBUG: Adding stub make-dir
+15:37:24.223 DEBUG: Adding stub marsdb
+15:37:24.223 DEBUG: Adding stub mathjs
+15:37:24.223 DEBUG: Adding stub memfs
+15:37:24.223 DEBUG: Adding stub mkdirp
+15:37:24.224 DEBUG: Adding stub module
+15:37:24.224 DEBUG: Adding stub mongodb
+15:37:24.224 DEBUG: Adding stub mongoose
+15:37:24.226 DEBUG: Adding stub mongo-sanitize
+15:37:24.226 DEBUG: Adding stub express-mongo-sanitize
+15:37:24.226 DEBUG: Adding stub mssql
+15:37:24.226 DEBUG: Adding stub mysql
+15:37:24.226 DEBUG: Adding stub mysql2
+15:37:24.226 DEBUG: Adding stub mysql2/promise
+15:37:24.226 DEBUG: Adding stub needle
+15:37:24.226 DEBUG: Adding stub net
+15:37:24.227 DEBUG: Adding stub tls
+15:37:24.227 DEBUG: Adding stub next/router
+15:37:24.227 DEBUG: Adding stub node-fetch
+15:37:24.227 DEBUG: Adding stub opener
+15:37:24.227 DEBUG: Adding stub path
+15:37:24.227 DEBUG: Adding stub parse-torrent
+15:37:24.227 DEBUG: Adding stub pg
+15:37:24.227 DEBUG: Adding stub pg-escape
+15:37:24.227 DEBUG: Adding stub pg-pool
+15:37:24.227 DEBUG: Adding stub pg-promise
+15:37:24.227 DEBUG: Adding stub printf
+15:37:24.227 DEBUG: Adding stub process
+15:37:24.227 DEBUG: Adding stub puka
+15:37:24.227 DEBUG: Adding stub qs
+15:37:24.227 DEBUG: Adding stub ramda
+15:37:24.227 DEBUG: Adding stub react
+15:37:24.228 DEBUG: Adding stub react-dom
+15:37:24.228 DEBUG: Adding stub read-chunk
+15:37:24.228 DEBUG: Adding stub readdirp
+15:37:24.228 DEBUG: Adding stub regex-escape
+15:37:24.228 DEBUG: Adding stub remote-exec
+15:37:24.228 DEBUG: Adding stub request
+15:37:24.228 DEBUG: Adding stub resolve-path
+15:37:24.228 DEBUG: Adding stub sanitize-html
+15:37:24.228 DEBUG: Adding stub sanitize-html-react
+15:37:24.228 DEBUG: Adding stub @braintree/sanitize-url
+15:37:24.228 DEBUG: Adding stub sequelize
+15:37:24.228 DEBUG: Adding stub send
+15:37:24.228 DEBUG: Adding stub shell-escape-tag
+15:37:24.228 DEBUG: Adding stub shelljs
+15:37:24.228 DEBUG: Adding stub __sonar__
+15:37:24.228 DEBUG: Adding stub ssh2
+15:37:24.228 DEBUG: Adding stub sqlstring
+15:37:24.228 DEBUG: Adding stub sqlite3
+15:37:24.228 DEBUG: Adding stub ssh2-streams
+15:37:24.228 DEBUG: Adding stub tar-stream
+15:37:24.228 DEBUG: Adding stub tunnel
+15:37:24.228 DEBUG: Adding stub typeorm
+15:37:24.228 DEBUG: Adding stub underscore
+15:37:24.228 DEBUG: Adding stub url
+15:37:24.228 DEBUG: Adding stub querystringify
+15:37:24.228 DEBUG: Adding stub query-string
+15:37:24.228 DEBUG: Adding stub querystring
+15:37:24.228 DEBUG: Adding stub util
+15:37:24.228 DEBUG: Adding stub vm
+15:37:24.228 DEBUG: Adding stub webpack-dev-server
+15:37:24.230 DEBUG: Adding stub write
+15:37:24.230 DEBUG: Adding stub write-json-file
+15:37:24.230 DEBUG: Adding stub xregexp
+15:37:24.230 DEBUG: Adding stub xss
+15:37:24.263 DEBUG: Reporting issues for rule jssecurity:S5146
+15:37:24.263 DEBUG: Reporting issues for rule jssecurity:S2083
+15:37:24.263 DEBUG: Reporting issues for rule jssecurity:S6105
+15:37:24.263 DEBUG: Reporting issues for rule jssecurity:S2631
+15:37:24.263 DEBUG: Reporting issues for rule jssecurity:S5144
+15:37:24.263 DEBUG: Reporting issues for rule jssecurity:S5147
+15:37:24.263 DEBUG: Reporting issues for rule jssecurity:S5696
+15:37:24.263 DEBUG: Reporting issues for rule jssecurity:S5883
+15:37:24.263 DEBUG: Reporting issues for rule jssecurity:S6287
+15:37:24.263 DEBUG: Reporting issues for rule jssecurity:S2076
+15:37:24.263 DEBUG: Reporting issues for rule jssecurity:S5334
+15:37:24.263 DEBUG: Reporting issues for rule jssecurity:S6350
+15:37:24.263 DEBUG: Reporting issues for rule jssecurity:S3649
+15:37:24.263 DEBUG: Reporting issues for rule jssecurity:S6096
+15:37:24.263 DEBUG: Reporting issues for rule jssecurity:S5131
+15:37:24.263 INFO: Taint analysis: done.
+15:37:24.263 INFO: Sensor JsSecuritySensor [security] (done) | time=288ms
+15:37:24.269 INFO: ------------- Run sensors on project
+15:37:24.310 DEBUG: 'Generic Coverage Report' skipped because one of the required properties is missing
+15:37:24.311 DEBUG: 'C#' skipped because there is no related file in current project
+15:37:24.311 DEBUG: 'C# Tests Coverage Report Import' skipped because there is no related file in current project
+15:37:24.311 DEBUG: '[Deprecated] C# Integration Tests Coverage Report Import' skipped because there is no related file in current project
+15:37:24.311 DEBUG: 'C# Unit Test Results Import' skipped because there is no related file in current project
+15:37:24.311 DEBUG: 'VB.NET' skipped because there is no related file in current project
+15:37:24.311 DEBUG: 'VB.NET Tests Coverage Report Import' skipped because there is no related file in current project
+15:37:24.311 DEBUG: '[Deprecated] VB.NET Integration Tests Coverage Report Import' skipped because there is no related file in current project
+15:37:24.311 DEBUG: 'VB.NET Unit Test Results Import' skipped because there is no related file in current project
+15:37:24.311 DEBUG: 'Java CPD Block Indexer' skipped because there is no related file in current project
+15:37:24.312 DEBUG: Sensors : Analysis Warnings import -> Zero Coverage Sensor
+15:37:24.312 INFO: Sensor Analysis Warnings import [csharp]
+15:37:24.312 INFO: Sensor Analysis Warnings import [csharp] (done) | time=0ms
+15:37:24.312 INFO: Sensor Zero Coverage Sensor
+15:37:24.317 INFO: Sensor Zero Coverage Sensor (done) | time=5ms
+15:37:24.318 INFO: SCM Publisher No SCM system was detected. You can use the 'sonar.scm.provider' property to explicitly specify it.
+15:37:24.320 INFO: CPD Executor Calculating CPD for 1 file
+15:37:24.320 DEBUG: Detection of duplications for /home/lukasz.kwapien/Downloads/sonar-scanning-examples-master/sonarqube-scanner/src/javascript/Person.js
+15:37:24.326 INFO: CPD Executor CPD calculation finished (done) | time=5ms
+15:37:24.366 INFO: Analysis report generated in 38ms, dir size=200.5 kB
+15:37:24.377 INFO: Analysis report compressed in 11ms, zip size=27.0 kB
+15:37:24.377 INFO: Analysis report generated in /home/lukasz.kwapien/Downloads/sonar-scanning-examples-master/sonarqube-scanner/.scannerwork/scanner-report
+15:37:24.377 DEBUG: Upload report
+15:37:24.506 DEBUG: POST 200 http://localhost:9000/api/ce/submit?projectKey=org.sonarqube%3Asonarqube-scanner&projectName=Example%20of%20SonarQube%20Scanner%20Usage | time=128ms
+15:37:24.508 INFO: Analysis report uploaded in 131ms
+15:37:24.509 DEBUG: Report metadata written to /home/lukasz.kwapien/Downloads/sonar-scanning-examples-master/sonarqube-scanner/.scannerwork/report-task.txt
+15:37:24.509 INFO: ANALYSIS SUCCESSFUL, you can find the results at: http://localhost:9000/dashboard?id=org.sonarqube%3Asonarqube-scanner
+15:37:24.509 INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+15:37:24.509 INFO: More about the report processing at http://localhost:9000/api/ce/task?id=AYIRhyAW_BjqYGuBEN3_
+15:37:24.511 DEBUG: Post-jobs : 
+15:37:24.515 DEBUG: eslint-bridge server will shutdown
+15:37:29.722 INFO: Analysis total time: 15.294 s
+15:37:29.724 INFO: ------------------------------------------------------------------------
+15:37:29.724 INFO: EXECUTION SUCCESS
+15:37:29.724 INFO: ------------------------------------------------------------------------
+15:37:29.724 INFO: Total time: 16.405s
+15:37:29.774 INFO: Final Memory: 43M/188M
+15:37:29.774 INFO: ------------------------------------------------------------------------
